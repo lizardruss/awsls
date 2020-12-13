@@ -4,6 +4,7 @@ package resource
 
 // SupportedTypes is a list of all resource types currently supported by awsls.
 var SupportedTypes = []string{
+
 	"aws_accessanalyzer_analyzer",
 	"aws_acm_certificate",
 	"aws_alb_target_group",
@@ -29,6 +30,7 @@ var SupportedTypes = []string{
 	"aws_cloudformation_stack",
 	"aws_cloudformation_stack_set",
 	"aws_cloudhsm_v2_cluster",
+	"aws_cloudtrail",
 	"aws_cloudwatch_dashboard",
 	"aws_cloudwatch_event_bus",
 	"aws_cloudwatch_log_destination",
@@ -236,6 +238,8 @@ var SupportedTypes = []string{
 	"aws_wafregional_xss_match_set",
 	"aws_wafv2_web_acl_logging_configuration",
 	"aws_worklink_fleet",
+	"aws_workspaces_directory",
 	"aws_workspaces_ip_group",
+	"aws_workspaces_workspace",
 	"aws_xray_group",
 }
